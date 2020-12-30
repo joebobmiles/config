@@ -22,5 +22,8 @@
   "files": [
     "eslintrc.json",
     "package.json"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
