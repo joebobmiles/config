@@ -1,261 +1,261 @@
 module.exports = {
   "ignorePatterns": [
-    "node_modules/**",
-    "dist/**",
-    "build/**",
-    ".**"
+    `node_modules/**`,
+    `dist/**`,
+    `build/**`,
+    `.**`
   ],
   "extends": [
-    "eslint:recommended"
+    `eslint:recommended`
   ],
   "rules": {
     /* Core rules */
-    "camelcase": "error",
+    "camelcase": `error`,
     "indent": [
-      "error",
+      `error`,
       2,
       {
-        "offsetTernaryExpressions": true
+        "offsetTernaryExpressions": true,
       }
     ],
     "semi": [
-      "error",
-      "always",
+      `error`,
+      `always`,
       {
-        "omitLastInOneLineBlock": true
+        "omitLastInOneLineBlock": true,
       }
     ],
     "linebreak-style": [
-      "error",
-      "unix"
+      `error`,
+      `unix`
     ],
     "brace-style": [
-      "error",
-      "allman",
+      `error`,
+      `allman`,
       {
-        "allowSingleLine": true
+        "allowSingleLine": true,
       }
     ],
     "max-len": [
-      "warn",
+      `warn`,
       {
         "code": 80,
         "tabWidth": 2,
         "ignoreUrls": true,
-        "ignoreRegExpLiterals": true
+        "ignoreRegExpLiterals": true,
       }
     ],
     /* Quote rules */
     "quotes": [
-      "error",
-      "backtick"
+      `error`,
+      `backtick`
     ],
     "quote-props": [
-      "error",
-      "always"
+      `error`,
+      `always`
     ],
     "jsx-quotes": [
-      "error",
-      "prefer-double"
+      `error`,
+      `prefer-double`
     ],
     /* Spacing rules */
     "array-bracket-spacing": [
-      "error",
-      "always"
+      `error`,
+      `always`
     ],
     "array-bracket-newline": [
-      "error",
-      "consistent"
+      `error`,
+      `consistent`
     ],
     "array-element-newline": [
-      "error",
-      "consistent"
+      `error`,
+      `consistent`
     ],
     "arrow-spacing": [
-      "error",
+      `error`,
       {
         "before": true,
-        "after": true
+        "after": true,
       }
     ],
     "comma-spacing": [
-      "error",
+      `error`,
       {
         "before": false,
-        "after": true
+        "after": true,
       }
     ],
     "key-spacing": [
-      "error",
+      `error`,
       {
         "beforeColon": false,
-        "afterColon": true
+        "afterColon": true,
       }
     ],
     "keyword-spacing": [
-      "error",
+      `error`,
       {
         "before": true,
-        "after": true
+        "after": true,
       }
     ],
     "no-multi-spaces": [
-      "error",
+      `error`,
       {
-        "ignoreEOLComments": true
+        "ignoreEOLComments": true,
       }
     ],
-    "no-tabs": "error",
+    "no-tabs": `error`,
     "object-curly-spacing": [
-      "error",
-      "always"
+      `error`,
+      `always`
     ],
     "object-curly-newline": [
-      "error",
+      `error`,
       {
         "ObjectExpression": {
           "multiline": true,
-          "consistent": true
+          "consistent": true,
         },
         "ObjectPattern": {
           "multiline": true,
-          "consistent": true
+          "consistent": true,
         },
         "ImportDeclaration": {
-          "consistent": true
+          "consistent": true,
         },
         "ExportDeclaration": {
           "multiline": true,
-          "consistent": true
-        }
+          "consistent": true,
+        },
       }
     ],
     "spaced-comment": [
-      "error",
-      "always",
+      `error`,
+      `always`,
       {
         "line": {
           "markers": [
-            "/"
-          ]
+            `/`
+          ],
         },
         "block": {
           "exceptions": [
-            "*"
+            `*`
           ],
-          "balanced": true
-        }
+          "balanced": true,
+        },
       }
     ],
     /* Paren/bracket/brace rules */
     "arrow-parens": [
-      "error",
-      "always"
+      `error`,
+      `always`
     ],
     "curly": [
-      "error",
-      "multi-or-nest"
+      `error`,
+      `multi-or-nest`
     ],
-    "wrap-regex": "error",
+    "wrap-regex": `error`,
     "no-extra-parens": [
-      "error",
-      "all",
+      `error`,
+      `all`,
       {
         "conditionalAssign": false,
         "returnAssign": false,
         "nestedBinaryExpressions": false,
-        "ignoreJSX": "all",
+        "ignoreJSX": `all`,
         "enforceForArrowConditionals": false,
         "enforceForSequenceExpressions": false,
-        "enforceForNewInMemberExpressions": false
+        "enforceForNewInMemberExpressions": false,
       }
     ],
     /* Operator rules */
     "eqeqeq": [
-      "error",
-      "always"
+      `error`,
+      `always`
     ],
     "operator-linebreak": [
-      "error",
-      "before",
+      `error`,
+      `before`,
       {
         "overrides": {
-          "=": "after" // '=' at the start of a line looks weird.
-        }
+          "=": `after` // '=' at the start of a line looks weird.
+        },
       }
     ],
     /* Variable declaration rules */
-    "no-var": "error",
-    "prefer-const": "error",
+    "no-var": `error`,
+    "prefer-const": `error`,
     "prefer-destructuring": [
-      "error",
+      `error`,
       {
         "array": true,
-        "object": true
+        "object": true,
       }
     ],
     /* Notation rules */
     "object-shorthand": [
-      "error",
-      "never"
+      `error`,
+      `never`
     ],
     "dot-location": [
-      "error",
-      "property"
+      `error`,
+      `property`
     ],
     "dot-notation": [
-      "error",
+      `error`,
       {
-        "allowKeywords": true
+        "allowKeywords": true,
       }
     ],
     /* String rules */
-    "no-multi-str": "error",
+    "no-multi-str": `error`,
     /* Function rules */
     "func-style": [
-      "error",
-      "declaration",
+      `error`,
+      `declaration`,
       {
-        "allowArrowFunctions": true
+        "allowArrowFunctions": true,
       }
     ],
     "function-call-argument-newline": [
-      "error",
-      "consistent"
+      `error`,
+      `consistent`
     ],
     "function-paren-newline": [
-      "error",
-      "multiline"
+      `error`,
+      `multiline`
     ],
     "arrow-body-style": [
-      "error",
-      "as-needed",
+      `error`,
+      `as-needed`,
       {
-        "requireReturnForObjectLiteral": false
+        "requireReturnForObjectLiteral": false,
       }
     ],
     "implicit-arrow-linebreak": [
-      "error",
-      "below"
+      `error`,
+      `below`
     ],
     /* Miscellaneous rules */
-    "no-confusing-arrow": "warn", // We want to know when we might be confusing.
-    "no-useless-rename": "warn", // This should be obvious.
-    "no-trailing-spaces": "error",
+    "no-confusing-arrow": `warn`, // We want to know when we might be confusing.
+    "no-useless-rename": `warn`, // This should be obvious.
+    "no-trailing-spaces": `error`,
     "comma-dangle": [
-      "error",
+      `error`,
       {
-        "arrays": "never",
-        "objects": "always",
-        "imports": "always",
-        "exports": "always",
-        "functions": "never"
+        "arrays": `never`,
+        "objects": `always`,
+        "imports": `always`,
+        "exports": `always`,
+        "functions": `never`
       }
     ],
-    "newline-per-chained-call": "error",
+    "newline-per-chained-call": `error`,
     "multiline-comment-style": [
-      "error",
-      "starred-block"
-    ]
-  }
+      `error`,
+      `starred-block`
+    ],
+  },
 };
