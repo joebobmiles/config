@@ -6,7 +6,7 @@ sizes. _Highly_ opinionated.
 Install via:
 
 ```shell
-$ npm i -D @joebobmiles/config-eslint
+$ npm i -D @joebobmiles/eslint-config
 ```
 
 Use via:
@@ -16,7 +16,7 @@ Use via:
     ...,
     "eslintConfig": {
         "extends": [
-            "@joebobmiles/config-eslint"
+            "@joebobmiles/eslint-config"
         ],
         ...
     },
