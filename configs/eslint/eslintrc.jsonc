@@ -57,6 +57,11 @@
         "enforceForSequenceExpressions": false,
         "enforceForNewInMemberExpressions": false
       }
+    ],
+    /* Variable declaration rules */
+    "prefer-const": [
+      "error",
+      "always"
     ]
   }
 }
