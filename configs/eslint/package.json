@@ -10,14 +10,14 @@
   },
   "keywords": [
     "eslint",
-    "eslint-config"
+    "config"
   ],
   "author": "Joseph R Miles <joe@jrm.dev> (https://jrm.dev)",
   "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/joebobmiles/config/issues"
   },
-  "homepage": "https://github.com/joebobmiles/config/configs/eslint-config#readme",
+  "homepage": "https://github.com/joebobmiles/config/configs/eslint#readme",
   "main": "eslintrc.json",
   "files": [
     "eslintrc.json",
