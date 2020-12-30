@@ -18,11 +18,15 @@
     "url": "https://github.com/joebobmiles/config/issues"
   },
   "homepage": "https://github.com/joebobmiles/config/tree/main/configs/eslint#readme",
-  "main": "eslintrc.json",
+  "main": "eslintrc.jsonc",
   "files": [
-    "eslintrc.json",
+    "eslintrc.jsonc",
     "package.json"
   ],
+  "exports": {
+    ".": "./eslintrc.jsonc",
+    "./package.json": "./package.json"
+  },
   "publishConfig": {
     "access": "public"
   }
