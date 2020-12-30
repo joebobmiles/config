@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/joebobmiles/config#readme",
   "workspaces": [
-    "configs"
+    "./configs/*"
   ],
   "devDependencies": {
     "@amanda-mitchell/semantic-release-npm-multiple": "^2.4.0",
