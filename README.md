@@ -1,3 +1,3 @@
-# eslint-config
+# `@joebobmiles/config`
 
-My personal eslint configuration. Import by installing via npm: `npm i -D @joebobmiles/eslint-config`.
+My personal configs for my projects.
