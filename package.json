@@ -33,7 +33,7 @@
     "multi-semantic-release": "^2.5.4"
   },
   "eslintConfig": {
-    "extends": "@joebobmiles/config-eslint"
+    "extends": "@joebobmiles/eslint-config"
   },
   "commitlint": {
     "extends": [
