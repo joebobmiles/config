@@ -134,11 +134,17 @@ module.exports = {
       "error",
       "always",
       {
-        "markers": [
-          "/",
-          "*"
-        ],
-        "balanced": true
+        "line": {
+          "markers": [
+            "/"
+          ]
+        },
+        "block": {
+          "exceptions": [
+            "*"
+          ],
+          "balanced": true
+        }
       }
     ],
     /* Paren/bracket/brace rules */
