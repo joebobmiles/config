@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joebobmiles/eslint-config.git"
+    "url": "git+https://github.com/joebobmiles/config.git"
   },
   "keywords": [
     "eslint",
@@ -17,9 +17,9 @@
   "author": "Joseph R Miles <joe@jrm.dev> (https://jrm.dev)",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/joebobmiles/eslint-config/issues"
+    "url": "https://github.com/joebobmiles/config/issues"
   },
-  "homepage": "https://github.com/joebobmiles/eslint-config#readme",
+  "homepage": "https://github.com/joebobmiles/config#readme",
   "workspaces": [
     "configs"
   ],
@@ -27,7 +27,8 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "husky": "^4.3.6",
-    "semantic-release": "^17.3.1"
+    "semantic-release": "^17.3.1",
+    "semantic-release-monorepo": "^7.0.3"
   },
   "commitlint": {
     "extends": [
@@ -40,6 +41,7 @@
     }
   },
   "release": {
+    "extends": "semantic-release-monorepo",
     "branches": [
       "main"
     ]
