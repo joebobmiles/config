@@ -1,0 +1,59 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".**"
+  ],
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    /* Core rules */
+    "indent": [
+      "error",
+      2,
+      {
+        "offsetTernaryExpressions": true
+      }
+    ],
+    "semi": "error",
+    /* Quote rules */
+    "quotes": [
+      "error",
+      "backtick"
+    ],
+    "quote-props": [
+      "error",
+      "always"
+    ],
+    /* Spacing rules */
+    "spaced-comment": [
+      "error",
+      "always",
+      {
+        "markers": [
+          "/",
+          "*"
+        ],
+        "balanced": true
+      }
+    ],
+    /* Paren/bracket/brace rules */
+    "wrap-regex": "error",
+    "no-extra-parens": [
+      "error",
+      "all",
+      {
+        "conditionalAssign": false,
+        "returnAssign": false,
+        "nestedBinaryExpressions": false,
+        "ignoreJSX": "all",
+        "enforceForArrowConditionals": false,
+        "enforceForSequenceExpressions": false,
+        "enforceForNewInMemberExpressions": false
+      }
+    ]
+  }
+}
