@@ -27,6 +27,10 @@
       "error",
       "always"
     ],
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
     /* Spacing rules */
     "spaced-comment": [
       "error",
