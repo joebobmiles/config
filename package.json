@@ -26,9 +26,14 @@
     "@amanda-mitchell/semantic-release-npm-multiple": "^2.4.0",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@joebobmiles/config-eslint": "^1.3.3",
     "@semantic-release/git": "^9.0.0",
+    "eslint": "^7.16.0",
     "husky": "^4.3.6",
     "multi-semantic-release": "^2.5.4"
+  },
+  "eslintConfig": {
+    "extends": "@joebobmiles/config-eslint"
   },
   "commitlint": {
     "extends": [
