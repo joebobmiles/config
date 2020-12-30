@@ -1,7 +1,8 @@
 {
-  "name": "@joebobmiles/eslint-config",
+  "name": "@joebobmiles/config",
+  "private": true,
   "version": "0.0.0",
-  "description": "My personal ESLint config.",
+  "description": "My personal configs.",
   "scripts": {
     "test": "exit 0"
   },
@@ -19,17 +20,15 @@
     "url": "https://github.com/joebobmiles/eslint-config/issues"
   },
   "homepage": "https://github.com/joebobmiles/eslint-config#readme",
+  "workspaces": [
+    "configs"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "husky": "^4.3.6",
     "semantic-release": "^17.3.1"
   },
-  "main": "eslintrc.json",
-  "files": [
-    "eslintrc.json",
-    "package.json"
-  ],
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
