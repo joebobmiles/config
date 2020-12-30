@@ -48,7 +48,7 @@
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
-      "@semantic-release/release-note-generator",
+      "@semantic-release/release-notes-generator",
       [
         "@amanda-mitchell/semantic-release-npm-multiple",
         {
