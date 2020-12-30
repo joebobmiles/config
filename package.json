@@ -1,0 +1,23 @@
+{
+  "name": "@joebobmiles/eslint-config",
+  "version": "0.0.0",
+  "description": "My personal ESLint config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joebobmiles/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Joseph R Miles <joe@jrm.dev> (https://jrm.dev)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/joebobmiles/eslint-config/issues"
+  },
+  "homepage": "https://github.com/joebobmiles/eslint-config#readme"
+}
