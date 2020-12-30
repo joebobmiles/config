@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/joebobmiles/config/issues"
   },
-  "homepage": "https://github.com/joebobmiles/config/configs/eslint#readme",
+  "homepage": "https://github.com/joebobmiles/config/tree/main/configs/eslint#readme",
   "main": "eslintrc.json",
   "files": [
     "eslintrc.json",
