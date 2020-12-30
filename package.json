@@ -51,8 +51,12 @@
         "@amanda-mitchell/semantic-release-npm-multiple",
         {
           "registries": {
-            "github": {},
-            "public": {}
+            "github": {
+              "npmPublish": true
+            },
+            "public": {
+              "npmPublish": true
+            }
           }
         }
       ],
