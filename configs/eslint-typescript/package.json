@@ -1,6 +1,6 @@
 {
   "name": "@joebobmiles/eslint-config-typescript",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "description": "My personal ESLint config for working with TypeScript",
   "repository": {
@@ -28,7 +28,7 @@
     "typescript": "= 4"
   },
   "dependencies": {
-    "@joebobmiles/eslint-config": "^1.0.2",
+    "@joebobmiles/eslint-config": "1.0.2",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "@typescript-eslint/parser": "^4.11.1"
   }
