@@ -11,7 +11,6 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": `off`,
     "@typescript-eslint/no-namespace": [
       "error",
-      "always",
       {
         "allowDeclarations": false,
         "allowDefinitionFiles": true
