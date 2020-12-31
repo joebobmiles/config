@@ -188,6 +188,10 @@ module.exports = {
       }
     ],
     /* Variable declaration rules */
+    "init-declarations": [
+      "error",
+      "always"
+    ],
     "no-var": `error`,
     "prefer-const": `error`,
     "prefer-destructuring": [
