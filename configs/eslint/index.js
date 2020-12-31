@@ -215,6 +215,7 @@ module.exports = {
     /* String rules */
     "no-multi-str": `error`,
     /* Function rules */
+    "default-param-last": "error",
     "func-style": [
       `error`,
       `declaration`,
