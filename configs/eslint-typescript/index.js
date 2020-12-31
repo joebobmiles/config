@@ -1,32 +1,33 @@
+/* global module, __dirname */
 module.exports = {
-  "parser": `@typescript-eslint/parser`,
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "tsconfigRootDir": __dirname,
     "project": [
       "./tsconfig.json"
-    ]
+    ],
   },
   "plugins": [
-    `@typescript-eslint`
+    "@typescript-eslint"
   ],
   "extends": [
-    `plugin:@typescript-eslint/recommended`,
-    `@joebobmiles/eslint-config`
+    "plugin:@typescript-eslint/recommended",
+    "@joebobmiles/eslint-config"
   ],
   "rules": {
-    "@typescript-eslint/no-explicit-any": `off`,
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-namespace": [
       "error",
       {
         "allowDeclarations": false,
-        "allowDefinitionFiles": true
+        "allowDefinitionFiles": true,
       }
     ],
     /* Plugin rules */
     /* Core rules */
     "indent": "off",
-    "@typescript-eslint/indent": [ 
-      `error`,
+    "@typescript-eslint/indent": [
+      "error",
       2,
       {
         "offsetTernaryExpressions": true,
@@ -45,7 +46,7 @@ module.exports = {
       "error",
       "allman",
       {
-        "allowSingleLine": true
+        "allowSingleLine": true,
       }
     ],
     /* Quote rules */
@@ -54,7 +55,7 @@ module.exports = {
       "error",
       "double",
       {
-        "allowTemplateLiterals": true
+        "allowTemplateLiterals": true,
       }
     ],
     /* Spacing rules */
@@ -63,7 +64,7 @@ module.exports = {
       "error",
       {
         "before": false,
-        "after": true
+        "after": true,
       }
     ],
     "keyword-spacing": "off",
@@ -83,7 +84,7 @@ module.exports = {
         "conditionalAssign": false,
         "returnAssign": false,
         "nestedBinaryExpressions": false,
-        "ignoreJSX": `all`,
+        "ignoreJSX": "all",
         "enforceForArrowConditionals": false,
         "enforceForSequenceExpressions": false,
         "enforceForNewInMemberExpressions": false,
@@ -100,7 +101,7 @@ module.exports = {
     "@typescript-eslint/dot-notation": [
       "error",
       {
-        "allowKeywords": true
+        "allowKeywords": true,
       }
     ],
     /* Function rules */
@@ -113,12 +114,12 @@ module.exports = {
     "@typescript-eslint/comma-dangle": [
       "error",
       {
-        "arrays": `never`,
-        "objects": `always`,
-        "imports": `always`,
-        "exports": `always`,
-        "functions": `never`
+        "arrays": "never",
+        "objects": "always",
+        "imports": "always",
+        "exports": "always",
+        "functions": "never",
       }
-    ]
+    ],
   },
 };
