@@ -48,7 +48,10 @@ module.exports = {
     /* Quote rules */
     "quotes": [
       `error`,
-      `backtick`
+      `double`,
+      {
+        "allowTemplateLiterals": true
+      }
     ],
     "quote-props": [
       `error`,
