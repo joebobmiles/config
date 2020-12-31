@@ -1,0 +1,32 @@
+{
+  "name": "@joebobmiles/tsconfig",
+  "version": "0.0.0",
+  "description": "My personal TypeScript config.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joebobmiles/config.git",
+    "directory": "configs/tsconfig"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "config",
+    "configuration"
+  ],
+  "author": "Joseph R Miles <joe@jrm.dev> (https://jrm.dev)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/joebobmiles/config/issues"
+  },
+  "homepage": "https://github.com/joebobmiles/config/tree/main/configs/tsconfig#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "peerDependencies": {
+    "typescript": ">= 4"
+  }
+}
