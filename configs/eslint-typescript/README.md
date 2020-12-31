@@ -1,7 +1,7 @@
 # `@joebobmiles/eslint-config-typescript`
 
 My personal configuration for TypeScript, extended from my basic config
-([`@joebobmiles/config-eslint](https://github.com/joebobmiles/config/tree/main/configs/eslint#readme)).
+([`@joebobmiles/config-eslint`](https://github.com/joebobmiles/config/tree/main/configs/eslint#readme)).
 This adds a few things that get annoying when using the basic TypeScript config
 provided by `@typescript-eslint`.
 
