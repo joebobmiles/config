@@ -247,6 +247,7 @@ module.exports = {
       `below`
     ],
     /* Miscellaneous rules */
+    "no-invalid-this": "error",
     "no-confusing-arrow": `warn`, // We want to know when we might be confusing.
     "no-useless-rename": `warn`, // This should be obvious.
     "no-trailing-spaces": `error`,
