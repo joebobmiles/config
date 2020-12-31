@@ -1,0 +1,35 @@
+{
+  "name": "@joebobmiles/eslint-config-typescript",
+  "version": "0.0.0",
+  "private": false,
+  "description": "My personal ESLint config for working with TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joebobmiles/config.git",
+    "directory": "configs/eslint-typescript"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript"
+  ],
+  "author": "Joseph R Miles <joe@jrm.dev> (https://jrm.dev)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/joebobmiles/config/issues"
+  },
+  "homepage": "https://github.com/joebobmiles/config/tree/main/configs/eslint-typescript#readme",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "typescript": "= 4"
+  },
+  "dependencies": {
+    "@joebobmiles/eslint-config": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1"
+  }
+}
