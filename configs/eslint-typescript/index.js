@@ -11,8 +11,8 @@ module.exports = {
     "@typescript-eslint"
   ],
   "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "@joebobmiles/eslint-config"
+    "@joebobmiles/eslint-config",
+    "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",
