@@ -188,7 +188,10 @@ module.exports = {
     /* Variable declaration rules */
     "init-declarations": [
       "error",
-      "always"
+      "never",
+      {
+        "ignoreForLoopInit": true,
+      }
     ],
     "no-var": "error",
     "prefer-const": "error",
