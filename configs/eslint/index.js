@@ -21,10 +21,7 @@ module.exports = {
     ],
     "semi": [
       "error",
-      "always",
-      {
-        "omitLastInOneLineBlock": true,
-      }
+      "always"
     ],
     "linebreak-style": [
       "error",
