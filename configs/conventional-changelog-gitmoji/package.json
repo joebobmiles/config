@@ -25,5 +25,8 @@
   "main": "./index.js",
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "@semantic-release/commit-analyzer": ">= 8"
   }
 }
