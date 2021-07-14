@@ -1,0 +1,29 @@
+{
+  "name": "@joebobmiles/conventional-changelog-gitmoji",
+  "version": "1.0.0",
+  "private": false,
+  "description": "My personal Conventional Changelog config for using gitmoji.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joebobmiles/config.git",
+    "directory": "configs/conventional-changelog-gitmoji"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "preset",
+    "config",
+    "configuration",
+    "emoji",
+    "gitmoji"
+  ],
+  "author": "Joseph R Miles <joe@jrm.dev> (https://jrm.dev)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/joebobmiles/config/issues"
+  },
+  "homepage": "https://github.com/joebobmiles/config/tree/main/configs/conventional-changelog-gitmoji#readme",
+  "main": "./index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
