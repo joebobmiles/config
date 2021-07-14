@@ -1,12 +1,11 @@
-# `@joebobmiles/config-eslint`
+# `@joebobmiles/commitlint-config-gitmoji`
 
-My personal ESLint configuration, optimizing for readability and small commit
-sizes. _Highly_ opinionated.
+My personal commitlint configuration for Gitmoji.
 
 Install via:
 
 ```shell
-$ npm i -D @joebobmiles/eslint-config
+$ npm i -D @joebobmiles/commitlint-config-gitmoji
 ```
 
 Use via:
@@ -14,10 +13,8 @@ Use via:
 ```json
 {
     ...,
-    "eslintConfig": {
-        "extends": [
-            "@joebobmiles/eslint-config"
-        ],
+    "commitlint": {
+        "extends": "@joebobmiles/eslint-config"
         ...
     },
     ...
