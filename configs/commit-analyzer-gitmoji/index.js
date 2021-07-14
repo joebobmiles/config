@@ -25,7 +25,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "adhesive_bandage",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "alembic",
@@ -33,11 +33,11 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "alien",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "ambulance",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "arrow_down",
@@ -57,7 +57,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "bento",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "bookmark",
@@ -65,11 +65,11 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "boom",
-            "release": false,
+            "release": "major",
           },
           {
             "type": "bug",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "building_construction",
@@ -89,15 +89,15 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "card_file_box",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "chart_with_upwards_arrow",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "children_crossing",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "clown_face",
@@ -129,11 +129,11 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "globe_with_meridians",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "goal_net",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "green_heart",
@@ -153,11 +153,11 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "iphone",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "label",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "lipstick",
@@ -165,7 +165,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "lock",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "loud_sound",
@@ -173,11 +173,11 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "mag",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "memo",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "monocle_face",
@@ -185,11 +185,11 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "mute",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "package",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "page_facing_up",
@@ -197,7 +197,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "passport_control",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "pencil2",
@@ -217,7 +217,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "rewind",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "rocket",
@@ -237,7 +237,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "sparkles",
-            "release": false,
+            "release": "minor",
           },
           {
             "type": "speech_balloon",
@@ -245,7 +245,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "tada",
-            "release": false,
+            "release": "major",
           },
           {
             "type": "test_tube",
@@ -261,7 +261,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "twisted_rightwards_arrows",
-            "release": false,
+            "release": "minor",
           },
           {
             "type": "wastebasket",
@@ -269,7 +269,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "wheelchair",
-            "release": false,
+            "release": "patch",
           },
           {
             "type": "white_check_mark",
@@ -281,7 +281,7 @@ async function analyzeCommits(pluginConfig, context)
           },
           {
             "type": "zap",
-            "release": false,
+            "release": "patch",
           }
         ],
       },
