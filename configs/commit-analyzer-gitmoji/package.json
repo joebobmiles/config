@@ -1,16 +1,16 @@
 {
-  "name": "@joebobmiles/conventional-changelog-gitmoji",
+  "name": "@joebobmiles/commit-analyzer-gitmoji",
   "version": "1.0.0",
   "private": false,
-  "description": "My personal Conventional Changelog config for using gitmoji.",
+  "description": "My personal Semantic Release commit analyzer for gitmoji.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joebobmiles/config.git",
-    "directory": "configs/conventional-changelog-gitmoji"
+    "directory": "configs/commit-analyzer-gitmoji"
   },
   "keywords": [
-    "conventional-changelog",
-    "preset",
+    "semantic-release",
+    "commit-analyzer",
     "config",
     "configuration",
     "emoji",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/joebobmiles/config/issues"
   },
-  "homepage": "https://github.com/joebobmiles/config/tree/main/configs/conventional-changelog-gitmoji#readme",
+  "homepage": "https://github.com/joebobmiles/config/tree/main/configs/commit-analyzer-gitmoji#readme",
   "main": "./index.js",
   "publishConfig": {
     "access": "public"
