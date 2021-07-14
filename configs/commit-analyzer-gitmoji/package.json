@@ -1,0 +1,32 @@
+{
+  "name": "@joebobmiles/commit-analyzer-gitmoji",
+  "version": "1.0.0",
+  "private": false,
+  "description": "My personal Semantic Release commit analyzer for gitmoji.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joebobmiles/config.git",
+    "directory": "configs/commit-analyzer-gitmoji"
+  },
+  "keywords": [
+    "semantic-release",
+    "commit-analyzer",
+    "config",
+    "configuration",
+    "emoji",
+    "gitmoji"
+  ],
+  "author": "Joseph R Miles <joe@jrm.dev> (https://jrm.dev)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/joebobmiles/config/issues"
+  },
+  "homepage": "https://github.com/joebobmiles/config/tree/main/configs/commit-analyzer-gitmoji#readme",
+  "main": "./index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@semantic-release/commit-analyzer": ">= 8"
+  }
+}

@@ -32,7 +32,10 @@
     "multi-semantic-release": "^2.5.4"
   },
   "eslintConfig": {
-    "extends": "@joebobmiles/eslint-config"
+    "extends": "@joebobmiles/eslint-config",
+    "parserOptions": {
+      "ecmaVersion": 2017
+    }
   },
   "commitlint": {
     "extends": [
